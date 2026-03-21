@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio! - Tomi Maldocena</title>
+    <!-- CSS! -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Iconos! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="reveal">
+        <div class="logo font-fredoka" style="font-weight: 900; font-style: italic;">PORTFOLIO</div>
+        <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <button id="confetti-btn" class="neo-btn" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">APRETAME</button>
+    </nav>
+
+    <main>
+        <!-- Seccion Hero (El hero es la primera seccion que se muestra al cargar la pagina!)-->
+        <section id="hero" class="hero section-padding reveal" style="animation-delay: 0.2s;">
+            <div class="hero-content">
+                <h1>HOLA! SOY<br><span class="italic">TOMÁS MALDOCENA</span></h1>
+                <div class="hero-description">
+                    <p>Soy de San Luis, Argentina. Actualmente me encuentro cursando el 2do año de la Tecnicatura en
+                        Desarrollo de Software, pero además me dedico a trabajar de forma freelance como Diseñador y
+                        Desarrollador web! Tengo mi estudio creativo llamado Maguito Studio donde ayudo a marcas a
+                        alcanzar su potencial digital. Mi objetivo es poder seguir creciendo como profesional y ayudar a
+                        las personas a través de la tecnología y el diseño.
+                    </p>
+                </div>
+                <div class="hero-tags">
+                    <div class="neo-pill tag-orange">DISEÑO & UX</div>
+                    <div class="neo-pill tag-blue">SOFTWARE DEV</div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img id="hero-pfp" src="assets/tomi-pfp-mate.png" alt="Tomás Maldocena">
+            </div>
+        </section>
+
+        <!-- Seccion Proyectos: Muestra los proyectos que he realizado-->
+        <section id="proyectos" class="section-padding reveal">
+            <h2 class="section-title">ALGUNOS PROYECTOS <span class="neo-pill"
+                    style="background: var(--accent-peach);">DESTACADOS</span></h2>
+            <div class="projects-grid">
+                <div class="neo-card project-card">
+                    <div class="project-thumb">
+                        <img src="assets/project-personal.png" alt="Neo-Banking Interface">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="font-fredoka">Mi Portfolio personal</h3>
+                        <p style="margin: 0.5rem 0 1.5rem; font-size: 0.9rem; font-weight: 500;">Este es mi portfolio
+                            donde muestro mis proyectos y habilidades.</p>
+                        <div class="hero-tags">
+                            <span class="neo-pill" style="font-size: 0.6rem; padding: 0.2rem 0.8rem;">DESIGN</span>
+                            <span class="neo-pill" style="font-size: 0.6rem; padding: 0.2rem 0.8rem;">DEVELOPMENT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="neo-card project-card">
+                    <div class="project-thumb">
+                        <img src="assets/project-maguito.png" alt="Data Viz Rebellion">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="font-fredoka">MAGUITO STUDIO</h3>
+                        <p style="margin: 0.5rem 0 1.5rem; font-size: 0.9rem; font-weight: 500;">Mi estudio creativo
+                            donde ayudo a marcas a alcanzar su potencial digital.</p>
+                        <div class="hero-tags">
+                            <span class="neo-pill" style="font-size: 0.6rem; padding: 0.2rem 0.8rem;">DESIGN</span>
+                            <span class="neo-pill" style="font-size: 0.6rem; padding: 0.2rem 0.8rem;">DEVELOPMENT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion de Skills, donde muestro mis habilidades y pasiones -->
+        <section id="sobre-mi" class="section-padding reveal">
+            <h2 class="section-title">HABILIDADES & <span class="neo-pill"
+                    style="background: var(--accent-blue); color: white;">PASIONES</span></h2>
+            <div class="skills-layout">
+                <div class="neo-card" style="padding: 2rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 800;">
+                        <i class="fa-regular fa-keyboard"></i> Tech Stack
+                    </div>
+                    <div class="tech-grid">
+                        <span class="neo-pill">JavaScript</span>
+                        <span class="neo-pill">TypeScript</span>
+                        <span class="neo-pill">React</span>
+                        <span class="neo-pill">Astro</span>
+                        <span class="neo-pill">Tailwind</span>
+                        <span class="neo-pill">SQLite</span>
+                        <span class="neo-pill">Node.js</span>
+                        <span class="neo-pill">HTML+CSS</span>
+                    </div>
+                </div>
+                <div class="neo-card future-tech">
+                    <h3 class="font-fredoka">DESIGN & CREATIVITY</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-rocket" style="font-size: 0.8rem;"></i>Figma</li>
+                        <li><i class="fa-solid fa-pen-to-square" style="font-size: 0.8rem;"></i>Photoshop</li>
+                        <li><i class="fa-solid fa-pen-to-square" style="font-size: 0.8rem;"></i>Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- To Learn Card -->
+            <div class="neo-card reveal"
+                style="margin-top: 2rem; padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; background: var(--accent-peach);">
+                <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 800; font-size: 1.2rem;">
+                    <i class="fa-solid fa-seedling"></i> Próximos Aprendizajes
+                </div>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <span class="neo-pill" style="background: var(--white);">Python</span>
+                    <span class="neo-pill" style="background: var(--white);">IA</span>
+                    <span class="neo-pill" style="background: var(--white);">Backend Avanzado</span>
+                </div>
+            </div>
+
+            <!-- Informacion de lo que hago fuera de programar -->
+            <div class="neo-card off-duty reveal">
+                <h3 class="font-fredoka">FUERA DE PROGRAMAR SOY: </h3>
+                <div class="off-duty-icons">
+                    <div class="off-duty-item">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <span>Amante del Café y el Mate</span>
+                    </div>
+                    <div class="off-duty-item">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Comelibros</span>
+                    </div>
+                    <div class="off-duty-item">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>Aficionado de la fotografía y el dibujo</span>
+                    </div>
+                    <div class="off-duty-item">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Fan de los videojuegos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cinema Section -->
+        <section class="section-padding reveal">
+            <h2 class="section-title">CINE <span class="neo-pill">FAVORITO</span></h2>
+            <div class="cinema-grid">
+                <!-- Movie 1 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="assets/movie-lotr.png" alt="El Señor de los Anillos: Las Dos Torres">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="font-fredoka">El Señor de los Anillos: Las Dos Torres</h3>
+                        <p>Mi pelicula favorita de Fantasía, la mejor de la trilogía. La batalla del Abismo de Helm es
+                            épica.</p>
+                    </div>
+                </div>
+                <!-- Movie 2 -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="assets/movie-matrix.png" alt="The Matrix">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="font-fredoka">The Matrix</h3>
+                        <p>Donde empezó mi obsesión con las computadoras y la realidad simulada. Un clásico de la
+                            cultura hacker.</p>
+                    </div>
+                </div>
+                <!-- Movie 3 (Placeholder or Matrix duplicate stylized) -->
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="assets/movie-super8.png" alt="Super 8">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="font-fredoka">Super 8</h3>
+                        <p>Una pelicula que me marcó mucho en mi infancia, me hizo amar el cine y la ciencia ficción.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact-section reveal">
+            <h2 class="font-fredoka">¡HABLEMOS!</h2>
+            <p class="subtitle">¿Tienes una idea que rompa las reglas?</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Tu nombre...">
+                </div>
+                <div class="form-group">
+                    <label>Apellido</label>
+                    <input type="text" placeholder="Tu apellido...">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="email@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label>Teléfono</label>
+                    <input type="tel" placeholder="+34 600 000 000">
+                </div>
+                <button type="submit" class="neo-btn submit-btn font-fredoka">ENVIAR MENSAJE</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="reveal">
+        <div class="footer-logo">MI PORTFOLIO - TOMAS MALDOCENA</div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/maguito.std/" target="_blank">Instagram</a>
+            <a href="https://github.com/tmaldocena" target="_blank">GitHub</a>
+            <a href="https://tmaldocena.vercel.app" target="_blank">Portfolio</a>
+        </div>
+        <div class="copyright">© 2026 Portfolio de Tomás Maldocena. Construido con magia :)</div>
+    </footer>
+
+    <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script>
+        // Confetti Button
+        document.getElementById('confetti-btn').addEventListener('click', () => {
+            confetti({
+                particleCount: 150,
+                spread: 70,
+                origin: { y: 0.6 },
+                colors: ['#2563eb', '#c2410c', '#fbc19d', '#000000']
+            });
+        });
+
+        // Mate Sip Animation
+        const heroImg = document.getElementById('hero-pfp');
+        const imgStates = ['assets/tomi-pfp-mate.png', 'assets/tomi-pfp-mate-sip.png'];
+        let stateIndex = 0;
+
+        setInterval(() => {
+            stateIndex = (stateIndex + 1) % imgStates.length;
+            heroImg.src = imgStates[stateIndex];
+        }, 2000);
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section, footer, nav, .off-duty').forEach(el => {
+            el.classList.remove('reveal'); // Initial state
+            observer.observe(el);
+        });
+    </script>
+</body>
+
+</html>
