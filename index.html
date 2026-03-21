@@ -13,7 +13,7 @@
 
 <body>
 
-    <!-- Navigation -->
+    <!-- Nav -->
     <nav class="reveal">
         <div class="logo font-fredoka" style="font-weight: 900; font-style: italic;">PORTFOLIO</div>
         <ul class="nav-links">
@@ -114,7 +114,6 @@
                 </div>
             </div>
 
-            <!-- To Learn Card -->
             <div class="neo-card reveal"
                 style="margin-top: 2rem; padding: 1.5rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; background: var(--accent-peach);">
                 <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 800; font-size: 1.2rem;">
@@ -151,11 +150,10 @@
             </div>
         </section>
 
-        <!-- Cinema Section -->
+        <!-- Seccion de Pelis favoritas -->
         <section class="section-padding reveal">
             <h2 class="section-title">CINE <span class="neo-pill">FAVORITO</span></h2>
             <div class="cinema-grid">
-                <!-- Movie 1 -->
                 <div class="movie-card">
                     <div class="movie-poster">
                         <img src="assets/movie-lotr.png" alt="El Señor de los Anillos: Las Dos Torres">
@@ -166,7 +164,6 @@
                             épica.</p>
                     </div>
                 </div>
-                <!-- Movie 2 -->
                 <div class="movie-card">
                     <div class="movie-poster">
                         <img src="assets/movie-matrix.png" alt="The Matrix">
@@ -177,7 +174,6 @@
                             cultura hacker.</p>
                     </div>
                 </div>
-                <!-- Movie 3 (Placeholder or Matrix duplicate stylized) -->
                 <div class="movie-card">
                     <div class="movie-poster">
                         <img src="assets/movie-super8.png" alt="Super 8">
@@ -191,7 +187,7 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+        <!-- Formulario de Contacto -->
         <section id="contacto" class="contact-section reveal">
             <h2 class="font-fredoka">¡HABLEMOS!</h2>
             <p class="subtitle">¿Tienes una idea que rompa las reglas?</p>
@@ -228,10 +224,9 @@
         <div class="copyright">© 2026 Portfolio de Tomás Maldocena. Construido con magia :)</div>
     </footer>
 
-    <!-- Confetti Script -->
+    <!-- Script para tirar confeti al apretar el boton del Nav -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
     <script>
-        // Confetti Button
         document.getElementById('confetti-btn').addEventListener('click', () => {
             confetti({
                 particleCount: 150,
@@ -241,7 +236,7 @@
             });
         });
 
-        // Mate Sip Animation
+        // Animacion de mate (cambio de imagenes)
         const heroImg = document.getElementById('hero-pfp');
         const imgStates = ['assets/tomi-pfp-mate.png', 'assets/tomi-pfp-mate-sip.png'];
         let stateIndex = 0;
@@ -260,7 +255,7 @@
         }, { threshold: 0.1 });
 
         document.querySelectorAll('section, footer, nav, .off-duty').forEach(el => {
-            el.classList.remove('reveal'); // Initial state
+            el.classList.remove('reveal');
             observer.observe(el);
         });
     </script>
