@@ -11,9 +11,13 @@ Checklist - Práctica Formativa Obligatoria 1
 
 • **Estructura del Proyecto**:
 [x] Archivo "index.html" ubicado en la raíz.
+
 [x] Carpeta "css" que contenga el archivo "styles.css".
+
 [x] (Opcional) Carpeta "assets" para recursos gráficos (imágenes e íconos).
+
 [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
+
 
 • **Repositorio y Publicación**:
 [x] Repositorio en GitHub creado.
