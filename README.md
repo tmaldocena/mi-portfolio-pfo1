@@ -10,6 +10,7 @@ Este proyecto es la Práctica Formativa Obligatoria 1 para la Tecnicatura Superi
 Checklist - Práctica Formativa Obligatoria 1
 
 • **Estructura del Proyecto**:
+
 [x] Archivo "index.html" ubicado en la raíz.
 
 [x] Carpeta "css" que contenga el archivo "styles.css".
@@ -20,6 +21,7 @@ Checklist - Práctica Formativa Obligatoria 1
 
 
 • **Repositorio y Publicación**:
+
 [x] Repositorio en GitHub creado.
 
 [x] Proyecto subido al repositorio.
@@ -31,6 +33,7 @@ Checklist - Práctica Formativa Obligatoria 1
 URL GitHub Pages: (https://tmaldocena.github.io/mi-portfolio-pfo1/)
 
 • **Uso de Google Fonts**:
+
 [x] Enlace a Google Fonts incluido en la sección "head" del HTML.
 
 [x] La tipografía importada se aplica en el sitio.
@@ -40,6 +43,7 @@ URL GitHub Pages: (https://tmaldocena.github.io/mi-portfolio-pfo1/)
 Respuesta: Elegí la fuente **Fredoka** para los títulos porque su diseño redondeado y audaz complementa perfectamente la estética neo-brutalista, aportando un toque amigable pero impactante a las cabeceras. Para los textos largos, utilicé **Teachers** por su excelente legibilidad en pantalla y aspecto limpio, generando un buen contraste con los títulos.
 
 • **HTML**:
+
 [x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 
 [x] Se han incluido las metaetiquetas obligatorias: charset y viewport.
@@ -55,6 +59,7 @@ Respuesta: Elegí la fuente **Fredoka** para los títulos porque su diseño redo
 [x] Se han insertado al menos 4 comentarios explicativos en el código HTML.
 
 • **CSS**:
+
 [x] Existe el archivo "styles.css" con estilos personalizados en la carpeta "css".
 
 [x] Se utilizan selectores basados en clases e identificadores.
@@ -69,6 +74,7 @@ Respuesta: Elegí la fuente **Fredoka** para los títulos porque su diseño redo
 Respuesta: Utilizar **CSS Grid** para la sección de tarjetas (proyectos y pasatiempos) me permitió establecer un diseño bidimensional sólido, ajustando fácilmente el número de columnas y el espaciado (gap) para adaptarlo a diferentes pantallas de forma responsiva. **Flexbox** resultó ideal para controles unidimensionales, como centrar los elementos de la barra de navegación (nav) y organizar internamente el contenido de las tarjetas y los tags del hero.
 
 *Estilización de Componentes:*
+
 [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios. (Se han personalizado los botones, enlaces y el formulario en la sección de contacto).
 
 [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
