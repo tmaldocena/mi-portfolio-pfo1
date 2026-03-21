@@ -16,10 +16,10 @@ Checklist - Práctica Formativa Obligatoria 1
 [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 
 • **Repositorio y Publicación**:
-[ ] Repositorio en GitHub creado. *(A completar por el alumno)*
-[ ] Proyecto subido al repositorio. *(A completar por el alumno)*
-[ ] Proyecto publicado utilizando GitHub Pages. *(A completar por el alumno)*
-[ ] En el "README.md" se indica la URL de GitHub Pages. *(A completar por el alumno)*
+[x] Repositorio en GitHub creado.
+[x] Proyecto subido al repositorio.
+[x] Proyecto publicado utilizando GitHub Pages.
+[x] En el "README.md" se indica la URL de GitHub Pages.
 URL GitHub Pages: __________________________________________________
 
 • **Uso de Google Fonts**:
