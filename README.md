@@ -82,9 +82,13 @@ Respuesta: Utilizar **CSS Grid** para la sección de tarjetas (proyectos y pasat
 [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
 
 [x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
+
 Respuesta: Implementé **transiciones CSS** en botones y tarjetas que alteran sus sombras (box-shadow) y posición física (transform: translate) al pasar el cursor (hover), brindando un efecto táctil. Además, agregué una **animación con JavaScript** (`setInterval`) en la imagen del hero para crear un "efecto de tomar mate". Estas microinteracciones son fundamentales en la estética neo-brutalista porque le dan mucha vida y dinamismo a un diseño que podría sentirse estático.
 
 • **Consideraciones Adicionales**:
+
 [x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos (mediante @media queries).
+
 [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
+
 [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
