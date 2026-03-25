@@ -16,12 +16,15 @@
     <!-- Nav -->
     <nav class="reveal">
         <div class="logo font-fredoka" style="font-weight: 900; font-style: italic;">PORTFOLIO</div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="nav-links">
             <li><a href="#sobre-mi">Sobre Mí</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <button id="confetti-btn" class="neo-btn" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">APRETAME</button>
+        <div class="nav-actions" style="display: flex; gap: 1rem; align-items: center;">
+            <button id="confetti-btn" class="neo-btn" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">APRETAME</button>
+            <button id="menu-btn" class="menu-btn" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
     </nav>
 
     <main>
@@ -257,6 +260,33 @@
         document.querySelectorAll('section, footer, nav, .off-duty').forEach(el => {
             el.classList.remove('reveal');
             observer.observe(el);
+        });
+
+        // Menu hamburguesa mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const navLinks = document.getElementById('nav-links');
+        
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            // Cambiar icono
+            const icon = menuBtn.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-xmark');
+            } else {
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            }
+        });
+        
+        // Cerrar menu al hacer click en un link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = menuBtn.querySelector('i');
+                icon.classList.remove('fa-xmark');
+                icon.classList.add('fa-bars');
+            });
         });
     </script>
 </body>
